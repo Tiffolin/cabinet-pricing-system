@@ -1,36 +1,54 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This project is a lightweight internal web-based system designed to help streamline cabinet product pricing and quote generation.
 
-## Getting Started
+It replaces manual Excel-based workflows with a simple, structured interface that can be used on desktop, tablet, and mobile browser (no app download required).
 
-First, run the development server:
+The goal of this first version is to build a working MVP (Minimum Viable Product) that reflects the real workflow and can be used internally for testing and feedback.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+----------------------------------------------------------------------------------
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Goal of MVP (Version 1)
+Digitize product listing and pricing
+Enable fast product selection for quoting
+Generate simple customer quotes
+Allow real-world testing of workflow in-office
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+----------------------------------------------------------------------------------
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Core Features (Included in MVP)
+1. Product Catalog
+View list of cabinet products
+Each product includes:
+SKU
+Name
+Category (Cabinets / Hardware / Services)
+Color/Finish
+Price (based on tier)
 
-## Learn More
+3. Pricing Tiers
+Support 3 pricing levels:
+Retail
+Contractor
+Wholesale
+Prices update based on selected tier
 
-To learn more about Next.js, take a look at the following resources:
+5. Quote Builder
+Add products to a quote (like a cart system)
+Adjust quantity
+Automatically calculate:
+Subtotal
+Basic tax (GST)
+Total estimate
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+7. Basic Quote Output
+Simple generated quote view
+Designed for internal use/testing
+Export format (basic version, not final design)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+9. Responsive Access
+Works on:
+Desktop
+Tablet (iPad in showroom)
+Mobile browser
+No app download required
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+----------------------------------------------------------------------------------
