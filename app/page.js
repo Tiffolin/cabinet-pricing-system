@@ -87,8 +87,8 @@ export default function CabinetPricingMockup() {
                 <h2 className="text-lg font-semibold">Products</h2>
               </div>
 
-              <div className="overflow-x-auto">
-                <table className="min-w-full text-sm">
+              <div className="w-full overflow-x-auto">
+                <table className="min-w-full table-fixed text-sm">
                   <thead className="bg-neutral-50 text-left text-neutral-500">
                     <tr>
                       <th className="px-6 py-4 font-medium">SKU</th>
@@ -109,8 +109,8 @@ export default function CabinetPricingMockup() {
                         <td className="px-6 py-4 font-medium">
                           {product.sku}
                         </td>
-                        <td className="px-6 py-4">{product.name}</td>
-                        <td className="px-6 py-4">{product.category}</td>
+                        <td className="break-words px-6 py-4">{product.name}</td>
+                        <td className="break-words px-6 py-4">{product.category}</td>
                         <td className="px-6 py-4">{product.color}</td>
                         <td className="px-6 py-4 font-semibold">
                           {product.retail}
@@ -252,3 +252,4 @@ export default function CabinetPricingMockup() {
     </div>
   );
 }
+
