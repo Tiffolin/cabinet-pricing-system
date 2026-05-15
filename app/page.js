@@ -45,17 +45,17 @@ export default function CabinetPricingMockup() {
             </div>
 
             <div className="flex gap-3">
-              <button className="rounded-2xl border border-neutral-300 px-4 py-2 text-sm font-medium hover:bg-neutral-50">
+              <button className="h-11 rounded-2xl border border-neutral-300 px-4 py-2 text-sm font-medium hover:bg-neutral-50">
                 Import Excel
               </button>
-              <button className="rounded-2xl bg-black px-4 py-2 text-sm font-medium text-white hover:opacity-90">
+              <button className="h-11 rounded-2xl bg-black px-4 py-2 text-sm font-medium text-white hover:opacity-90">
                 Generate Quote
               </button>
             </div>
           </div>
         </div>
 
-        <div className="grid gap-6 lg:grid-cols-[1fr_380px]">
+        <div className="grid gap-6 grid-cols-1 lg:grid-cols-[1fr_380px]">
           {/* Left Side */}
           <div className="space-y-6">
             {/* Filters */}
